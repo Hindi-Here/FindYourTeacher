@@ -43,13 +43,13 @@ return CellOutOfRangeException(timeVariable) == false ? LessonTime[timeVariable.
                                                       : "Сейчас ни у кого нет занятий. Все отдыхают!";
 ```
 
-`DayIndex` устанавливает позицию по строкам (tr), а `TimeIndex` отвечает за столбцы (td). Поскольку две таблицы (для четной и нечетной недели) полностью идентичны по html коду - не предоставляется возможности удобного обращения к таблицам. Поэтому используется обращение по уникальному селектору для каждой таблицы (`body > table:nth-child(3)` и `body > table:nth-child(3)`).
+`DayIndex` устанавливает позицию по строкам (tr), а `TimeIndex` отвечает за столбцы (td). Поскольку две таблицы (для четной и нечетной недели) полностью идентичны по html коду - не предоставляется возможности удобного обращения к таблицам. Поэтому используется обращение по уникальному селектору для каждой таблицы (`body > table:nth-child(3)` и `body > table:nth-child(6)`).
 
 Метод `CellOutOfRangeException(Timevariable timeVariable)` обеспечивает обработку ошибок в случаях, когда достигаются ячейки с null значением в таблице.
 
 ## Работа бота на скриншотах:
-<img src="https://github.com/user-attachments/assets/70e9138c-f0bd-4496-a9f6-38e8244ecac2" width="300" height="350">
+<img src="https://github.com/user-attachments/assets/70e9138c-f0bd-4496-a9f6-38e8244ecac2" width="400" height="450">
 
-<img src="https://github.com/user-attachments/assets/aaa15bbb-60ee-4c68-967d-ad2243d2101f" width="300" height="350">
+<img src="https://github.com/user-attachments/assets/aaa15bbb-60ee-4c68-967d-ad2243d2101f" width="400" height="450">
 
-<img src="https://github.com/user-attachments/assets/1d02a446-fd44-430c-a7cf-5f36f8979b02" width="300" height="350">
+<img src="https://github.com/user-attachments/assets/1d02a446-fd44-430c-a7cf-5f36f8979b02" width="400" height="450">
