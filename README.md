@@ -48,10 +48,8 @@ return CellOutOfRangeException(timeVariable) == false ? LessonTime[timeVariable.
 Метод `CellOutOfRangeException(Timevariable timeVariable)` обеспечивает обработку ошибок в случаях, когда достигаются ячейки с null значением в таблице.
 
 ## Работа бота на скриншотах:
-<img src="https://github.com/user-attachments/assets/49da0a7a-1f99-4dfa-9019-069da12f992f" width="300" height="275">
+<img src="https://github.com/user-attachments/assets/70e9138c-f0bd-4496-a9f6-38e8244ecac2" width="300" height="350">
 
-<img src="https://github.com/user-attachments/assets/65ddad52-135f-485b-ae4b-1805f45acdf7" width="300" height="275">
+<img src="https://github.com/user-attachments/assets/aaa15bbb-60ee-4c68-967d-ad2243d2101f" width="300" height="350">
 
-<img src="https://github.com/user-attachments/assets/cbf451bd-5662-4ad3-8752-50d372c8c2cf" width="300" height="275">
-
-<img src="https://github.com/user-attachments/assets/ad79b8ef-d9b7-44a0-9add-c2c3ac171e52" width="300" height="275">
+<img src="https://github.com/user-attachments/assets/1d02a446-fd44-430c-a7cf-5f36f8979b02" width="300" height="350">
