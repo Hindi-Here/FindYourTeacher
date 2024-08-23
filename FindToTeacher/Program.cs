@@ -193,8 +193,7 @@ namespace FindYourTeacher
 
         public static async Task ERROR(ITelegramBotClient bot, Exception exception, CancellationToken Token) //отвечает за ошибки 
         {
-            var message = exception.Message;
-            await bot.SendTextMessageAsync(message, "Неизвестная команда [неверное имя или команда стерта] или отсутствие преподавателя в списках");
+            await bot.SendTextMessageAsync(exception.Message, "ОшибОчка", cancellationToken: Token);
         }
     }
 }
